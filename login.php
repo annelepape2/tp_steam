@@ -30,7 +30,7 @@ if (isset($_POST["pseudo"]) &&
     }                                       //mauvais identifiants
 
     else {
-        $link= "<a href:'signup.php'>signup</a>";
+        $link= "<a href:'signin.php'>signin</a>";
         echo "Error : pseudo/password is incorrect";
     }
 }
